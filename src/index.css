@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.seccion5 {
+    height: 300px;
+    overflow: scroll;
+    position: relative;
+}
+
+.zapatos {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.titulo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+}
+
+.popup {
+    margin-top: 50px;
+    background-color: white;
+    width: 80vh;
+    height: 80vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+
+}
+
+.imagenpop {
+    width: 50vh;
+    height: 40vh;
+    z-index: 1;
+}
+
+.precio {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.swipe {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+}
+
+/* .descuentico{
+    color: red;
+    font-size: 14px;
+} */
+.fondonegro {
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 75%;
+}
+
+.caja {
+    width: 25vh;
+    height: 20vh;
+}
+
+
+@media (max-width:400px) {
+
+    .seccion1{
+        gap: 248px;
+    }
+    .seccion2{
+        gap: 224px;
+    }
+    .seccion3{
+        width: 350px;
+    }
+    .seccion4{
+       gap: 10px;
+    }
+    .cartas1{
+        width: 330px;
+        gap: 10px;
+    }
+    .cartas2{
+        width: 330px;
+        gap: 10px;
+        margin-top: 10px;
+        margin-bottom: 42px;
+    }
+    .seccion6{
+        padding-top: 30px;
+        position: absolute;
+        padding-bottom: 30px;
+        padding-right: 40px;
+        padding-left: 40px;
+        margin-top: 182%;
+        
+    }
+    .popup{
+        width: 350px;
+    }
+    .titulo{
+        font-size: 27px;
+    }
+}
